@@ -1,6 +1,6 @@
 import { Element } from "react-scroll";
 import Hero from "./Hero";
-import Nav from "./nav";
+import Nav from "./Nav";
 import Projects from "./Projects";
 import Skills from "./Skills";
 
