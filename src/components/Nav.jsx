@@ -45,7 +45,9 @@ function Nav() {
               Projects
             </Link>
             <a
-              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/drive/folders/16PdudGlzsvus5b_5hImex3IelYntwyhQ?usp=sharing"
               className="text-[#474B4F] bg-[#86C232]  hover:bg-[#61892F] rounded-full px-5 py-2 text-xl"
             >
               CV
@@ -77,10 +79,10 @@ function Nav() {
                 Skills
               </li>
               <li className="text-white text-xl mb-2 cursor-pointer hover:bg-indigo-800 rounded-full px-5 py-2">
-                Project
+                Projects
               </li>
               <li className="text-white text-xl mb-2 cursor-pointer hover:bg-indigo-800 rounded-full px-5 py-2">
-                Testimonials
+                CV
               </li>
             </ul>
           </div>

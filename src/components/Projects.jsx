@@ -66,8 +66,8 @@ function Projects() {
       projectName: "Portfolio",
       description: "Trang cá nhân về thông tin và kỹ năng của bản thân mình",
       projectImg: portfolio,
-      code: "https://github.com/PhamCongBangss/pizza-ordering",
-      web: "https://pizza-ordering-bangphamne.vercel.app/",
+      code: "https://github.com/PhamCongBangss/portfolio",
+      web: "https://portfolio-bangphamneee.vercel.app/",
     },
     {
       use: {
