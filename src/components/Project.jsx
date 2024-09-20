@@ -2,7 +2,7 @@
 
 function Project({ project }) {
   const { use, projectName, description, projectImg, code, web } = project;
-  const { html, css, javascript, reactRouter, redux, react } = use;
+  const { html, css, javascript, reactRouter, redux, react, firebase } = use;
   return (
     <div className="bg-[#474B4F] max-w-md mx-auto rounded-xl shadow-md overflow-hidden hover:animate-pulse w-full md:max-w-2xl">
       <div className="md:flex md:justify-between md:items-center">
@@ -55,6 +55,14 @@ function Project({ project }) {
             {redux ? (
               <span className="bg-purple-500 px-2 py-1 rounded-lg text-white mr-4">
                 REDUX
+              </span>
+            ) : (
+              ""
+            )}
+
+            {firebase ? (
+              <span className="bg-orange-600 px-2 py-1 rounded-lg text-white mr-4">
+                FIREBASE
               </span>
             ) : (
               ""

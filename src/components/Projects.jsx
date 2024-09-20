@@ -4,23 +4,25 @@ import Dice from "../assets/Dice.png";
 import BankistApp from "../assets/BankistApp.png";
 import pizza from "../assets/PizzaOrdering.png";
 import portfolio from "../assets/portfolio.png";
-import calculator from "../assets/calculator.png";
+import chat from "../assets/chat.png";
 function Projects() {
   const projects = [
     {
       use: {
-        html: true,
+        html: false,
         css: true,
         javascript: true,
-        react: false,
+        react: true,
         reactRouter: false,
         redux: false,
+        firebase: true,
       },
-      projectName: "Calculator",
-      description: "Mô phỏng máy tính cầm tay đơn giản",
-      projectImg: calculator,
-      code: "https://github.com/PhamCongBangss/Calculator",
-      web: "https://calculator-sage-pi-68.vercel.app/",
+      projectName: "Chat App",
+      description:
+        "Mô phỏng công cụ nhắn tin, có chức năng đăng ký bằng email, password, upload hình lên. Chức năng tìm kiếm người dùng khác và nhắn tin. Sử dụng react và css chủ yếu",
+      projectImg: chat,
+      code: "https://github.com/PhamCongBangss/Chat-App",
+      web: "https://chat-app-bangphamne.vercel.app/",
     },
     {
       use: {
